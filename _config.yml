@@ -16,7 +16,7 @@ baseurl                  : "/Blog" # the subpath of your site, e.g. "/blog"
 repository               : "sanjikk/Blog"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 150
 comments:
   provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -200,9 +200,9 @@ defaults:
       type: Algorithm
     values:
       layout: single
-      read_time: false
+      read_time: true
       author_profile: true
-      share: false
+      share: true
       comments: false
       sidebar:
         nav: "Algorithm"
@@ -212,9 +212,9 @@ defaults:
       type: SystemDesign
     values:
       layout: single
-      read_time: false
+      read_time: true
       author_profile: true
-      share: false
+      share: true
       comments: false
       sidebar:
         nav: "SystemDesign"

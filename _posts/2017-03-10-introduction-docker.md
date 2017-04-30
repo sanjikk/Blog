@@ -44,7 +44,7 @@ Docker的镜像实际上由一层一层的文件系统组成，这种层级的�
 
 [hub.docker.com](http://hub.docker.com)
 
-[c.163.com](c.163.com)
+[c.163.com](http://c.163.com)
 
 ## 5. 安装Installation
 
