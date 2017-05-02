@@ -18,7 +18,7 @@ teaser                   : # filename of teaser fallback teaser image placed in 
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 150
 comments:
-  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : "dreamshore-tiger"
   discourse:
@@ -34,7 +34,7 @@ staticman:
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
-  moderation             : true
+  moderation             : false
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
