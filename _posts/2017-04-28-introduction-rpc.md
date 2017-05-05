@@ -26,7 +26,7 @@ RPC全称为Remote Procedure Call，一种进程间通信方式，允许程序�
 
      客户方调用后不等待结果，通过回调通知等方式获取结果，或者根本不关心结果
 
-## 3. 框架结构 Frame Structure
+## 3. 框架结构 Framework
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/images/rpc-frame.png){: .align-center}
 
